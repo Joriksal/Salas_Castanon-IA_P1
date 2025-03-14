@@ -4,6 +4,8 @@
     Grupo 6E
     Materia: Inteligencia Artificial"""
 
+# Ejemplo de función para verificar si tres longitudes pueden formar un triángulo
+
 def es_triangulo(lado1, lado2, lado3):
     return lado1 + lado2 > lado3 and lado2 + lado3 > lado1 and lado3 + lado1 > lado2
 
